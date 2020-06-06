@@ -1,0 +1,42 @@
+export class Book{
+public book=[
+    {
+        uniqueIdentifier:'001',
+        title:'Book1',
+        subject:'CS',
+        author:'XYZ',
+        publicationYear:2010
+    },
+    {
+        uniqueIdentifier:'002',
+        title:'Book2',
+        subject:'AI',
+        author:'XYSS',
+        publicationYear:2006
+    },
+    {
+        uniqueIdentifier:'003',
+        title:'Book3',
+        subject:'ML',
+        author:'XHZ',
+        publicationYear:2009
+    },
+    {
+        uniqueIdentifier:'004',
+        title:'Book4',
+        subject:'DataStructures',
+        author:'XYFS',
+        publicationYear:2018
+    },
+    {
+        uniqueIdentifier:'001',
+        title:'Book5',
+        subject:'IT',
+        author:'XAZ',
+        publicationYear:2000
+    }
+]
+getBook(){
+    return this.book;
+}
+}
